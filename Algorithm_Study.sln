@@ -3,7 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithm_Study", "Algorithm_Study\Algorithm_Study.vcxproj", "{0D36150B-53CD-4845-A5E8-72DDD72F7C6A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "입출력문제", "입출력문제", "{AA68CC31-A38C-4016-871C-0DD79D58A35B}"
+	ProjectSection(SolutionItems) = preProject
+		입출력문제\1000_boj.cpp = 입출력문제\1000_boj.cpp
+		입출력문제\10950_boj.cpp = 입출력문제\10950_boj.cpp
+		입출력문제\10951_boj.cpp = 입출력문제\10951_boj.cpp
+		입출력문제\10952_boj.cpp = 입출력문제\10952_boj.cpp
+		입출력문제\10953_boj.cpp = 입출력문제\10953_boj.cpp
+		입출력문제\11021_boj.cpp = 입출력문제\11021_boj.cpp
+		입출력문제\11022_boj.cpp = 입출력문제\11022_boj.cpp
+		입출력문제\11718_boj.cpp = 입출력문제\11718_boj.cpp
+		입출력문제\11719_boj.cpp = 입출력문제\11719_boj.cpp
+		입출력문제\11720_boj.cpp = 입출력문제\11720_boj.cpp
+		입출력문제\11721_boj.cpp = 입출력문제\11721_boj.cpp
+		입출력문제\2558_boj.cpp = 입출력문제\2558_boj.cpp
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,16 +25,6 @@ Global
 		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0D36150B-53CD-4845-A5E8-72DDD72F7C6A}.Debug|x64.ActiveCfg = Debug|x64
-		{0D36150B-53CD-4845-A5E8-72DDD72F7C6A}.Debug|x64.Build.0 = Debug|x64
-		{0D36150B-53CD-4845-A5E8-72DDD72F7C6A}.Debug|x86.ActiveCfg = Debug|Win32
-		{0D36150B-53CD-4845-A5E8-72DDD72F7C6A}.Debug|x86.Build.0 = Debug|Win32
-		{0D36150B-53CD-4845-A5E8-72DDD72F7C6A}.Release|x64.ActiveCfg = Release|x64
-		{0D36150B-53CD-4845-A5E8-72DDD72F7C6A}.Release|x64.Build.0 = Release|x64
-		{0D36150B-53CD-4845-A5E8-72DDD72F7C6A}.Release|x86.ActiveCfg = Release|Win32
-		{0D36150B-53CD-4845-A5E8-72DDD72F7C6A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
