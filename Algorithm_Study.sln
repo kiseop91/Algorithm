@@ -16,8 +16,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "입출력문제", "입출�
 		입출력문제\11719_boj.cpp = 입출력문제\11719_boj.cpp
 		입출력문제\11720_boj.cpp = 입출력문제\11720_boj.cpp
 		입출력문제\11721_boj.cpp = 입출력문제\11721_boj.cpp
+		2439_boj.cpp = 2439_boj.cpp
 		입출력문제\2558_boj.cpp = 입출력문제\2558_boj.cpp
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stl정리", "stl정리", "{3C119D6F-A5D3-43C6-BFFB-DFBCECCAD8AA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stl", "stl\stl.vcxproj", "{F229AA4B-CCE2-4EC4-BBF2-227978DABCA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,8 +31,21 @@ Global
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F229AA4B-CCE2-4EC4-BBF2-227978DABCA4}.Debug|x64.ActiveCfg = Debug|x64
+		{F229AA4B-CCE2-4EC4-BBF2-227978DABCA4}.Debug|x64.Build.0 = Debug|x64
+		{F229AA4B-CCE2-4EC4-BBF2-227978DABCA4}.Debug|x86.ActiveCfg = Debug|Win32
+		{F229AA4B-CCE2-4EC4-BBF2-227978DABCA4}.Debug|x86.Build.0 = Debug|Win32
+		{F229AA4B-CCE2-4EC4-BBF2-227978DABCA4}.Release|x64.ActiveCfg = Release|x64
+		{F229AA4B-CCE2-4EC4-BBF2-227978DABCA4}.Release|x64.Build.0 = Release|x64
+		{F229AA4B-CCE2-4EC4-BBF2-227978DABCA4}.Release|x86.ActiveCfg = Release|Win32
+		{F229AA4B-CCE2-4EC4-BBF2-227978DABCA4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F229AA4B-CCE2-4EC4-BBF2-227978DABCA4} = {3C119D6F-A5D3-43C6-BFFB-DFBCECCAD8AA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6685842-45B1-4525-A0DD-DEE9215EF7D8}
