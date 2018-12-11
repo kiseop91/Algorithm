@@ -18,11 +18,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "입출력문제", "입출�
 		입출력문제\11721_boj.cpp = 입출력문제\11721_boj.cpp
 		2439_boj.cpp = 2439_boj.cpp
 		입출력문제\2558_boj.cpp = 입출력문제\2558_boj.cpp
+		2667_boj.cpp = 2667_boj.cpp
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stl정리", "stl정리", "{3C119D6F-A5D3-43C6-BFFB-DFBCECCAD8AA}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stl", "stl\stl.vcxproj", "{F229AA4B-CCE2-4EC4-BBF2-227978DABCA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "기초알고리즘", "기초알고리즘", "{1152509E-DF1A-4450-9ED9-6C7EF4DC78D0}"
+	ProjectSection(SolutionItems) = preProject
+		stl\stl.cpp = stl\stl.cpp
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
