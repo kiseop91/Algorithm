@@ -18,8 +18,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "입출력문제", "입출�
 		입출력문제\11721_boj.cpp = 입출력문제\11721_boj.cpp
 		stl\2178_boj.cpp = stl\2178_boj.cpp
 		2439_boj.cpp = 2439_boj.cpp
-		입출력문제\2558_boj.cpp = 입출력문제\2558_boj.cpp
-		2667_boj.cpp = 2667_boj.cpp
 		stl\test.cpp = stl\test.cpp
 	EndProjectSection
 EndProject
@@ -30,6 +28,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "기초알고리즘", "기초알고리즘", "{1152509E-DF1A-4450-9ED9-6C7EF4DC78D0}"
 	ProjectSection(SolutionItems) = preProject
 		stl\stl.cpp = stl\stl.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "창의적알고리즘(중급)", "창의적알고리즘(중급)", "{F33FDE44-74B7-4C46-BB58-1E54B8E5D3EC}"
+	ProjectSection(SolutionItems) = preProject
+		stl\2501_boj.cpp = stl\2501_boj.cpp
+		입출력문제\2558_boj.cpp = 입출력문제\2558_boj.cpp
+		2667_boj.cpp = 2667_boj.cpp
 	EndProjectSection
 EndProject
 Global
