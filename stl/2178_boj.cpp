@@ -3,11 +3,10 @@
 #include <queue>
 using namespace std;
 
-int map[30][30];
+int map[101][101];
 int n, m;
 int dx[] = { 1,0,-1,0 };
 int dy[] = { 0,1,0,-1 };
-int cnt;
 
 void print()
 {
@@ -32,31 +31,28 @@ void bfs(int x, int y)
 	queue<pair<int, int>> q;
 	pair<int, int> vertex{ x,y };
 	q.push(vertex);
-	map[x][y] = cnt;
-
 	while (!q.empty())
 	{
 		pair<int, int> curr;
 		curr = q.front();
 		q.pop();
-		cnt++;
 		for (int i = 0; i < 4; i++)
 		{
-			if ((map[curr.first + dx[i]][curr.second + dy[i]] == 1)
-				&& safe(curr.first + dx[i], curr.second + dy[i]))
+			int x = curr.first + dx[i];
+			int y = curr.second + dy[i];
+			if ((map[x][y] == 1)
+				&& safe(x, y))
 			{
-				pair<int, int> next{ curr.first + dx[i], curr.second + dy[i] };
+				pair<int, int> next{ x, y };
 				q.push(next);
-				map[curr.first + dx[i]][curr.second + dy[i]] = cnt;
+				map[x][y] = map[curr.first][curr.second] + 1;
 			}
 		}
-	}
-
+	}	
 }
 
 int main()
 {
-
 	cin >> n >> m;
 
 	for (int i = 0; i < n; i++)
@@ -67,10 +63,7 @@ int main()
 		}
 	}
 
-	bfs(0, 0);
-
-	print();
+    bfs(0, 0);
 	cout << map[n - 1][m - 1] << endl;
-
 	return 0;
 }
