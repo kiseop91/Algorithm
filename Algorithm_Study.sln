@@ -19,6 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "입출력문제", "입출�
 		2439_boj.cpp = 2439_boj.cpp
 		입출력문제\2558_boj.cpp = 입출력문제\2558_boj.cpp
 		2667_boj.cpp = 2667_boj.cpp
+		stl\test.cpp = stl\test.cpp
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stl정리", "stl정리", "{3C119D6F-A5D3-43C6-BFFB-DFBCECCAD8AA}"
