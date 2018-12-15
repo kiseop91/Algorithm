@@ -34,7 +34,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "창의적알고리즘(중�
 	ProjectSection(SolutionItems) = preProject
 		stl\2501_boj.cpp = stl\2501_boj.cpp
 		입출력문제\2558_boj.cpp = 입출력문제\2558_boj.cpp
+		stl\2566_boj.cpp = stl\2566_boj.cpp
 		2667_boj.cpp = 2667_boj.cpp
+		stl\고기잡이L.cpp = stl\고기잡이L.cpp
+		stl\고기잡이s.cpp = stl\고기잡이s.cpp
 	EndProjectSection
 EndProject
 Global
