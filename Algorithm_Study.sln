@@ -38,11 +38,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "창의적알고리즘(중�
 		stl\2566_boj.cpp = stl\2566_boj.cpp
 		stl\2615_boj.cpp = stl\2615_boj.cpp
 		2667_boj.cpp = 2667_boj.cpp
+		stl\MinimunSum.cpp = stl\MinimunSum.cpp
 		stl\고기잡이L.cpp = stl\고기잡이L.cpp
 		stl\고기잡이s.cpp = stl\고기잡이s.cpp
 		stl\리모컨.cpp = stl\리모컨.cpp
 		stl\연구활동가는길(오답).cpp = stl\연구활동가는길(오답).cpp
 		stl\연구활동가는길(정답_인접행렬).cpp = stl\연구활동가는길(정답_인접행렬).cpp
+		stl\오른편절편소수(다시해볼것).cpp = stl\오른편절편소수(다시해볼것).cpp
 	EndProjectSection
 EndProject
 Global
