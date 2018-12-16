@@ -32,12 +32,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "기초알고리즘", "기�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "창의적알고리즘(중급)", "창의적알고리즘(중급)", "{F33FDE44-74B7-4C46-BB58-1E54B8E5D3EC}"
 	ProjectSection(SolutionItems) = preProject
+		stl\10971_boj(오답).cpp = stl\10971_boj(오답).cpp
 		stl\2501_boj.cpp = stl\2501_boj.cpp
 		입출력문제\2558_boj.cpp = 입출력문제\2558_boj.cpp
 		stl\2566_boj.cpp = stl\2566_boj.cpp
+		stl\2615_boj.cpp = stl\2615_boj.cpp
 		2667_boj.cpp = 2667_boj.cpp
 		stl\고기잡이L.cpp = stl\고기잡이L.cpp
 		stl\고기잡이s.cpp = stl\고기잡이s.cpp
+		stl\리모컨.cpp = stl\리모컨.cpp
+		stl\연구활동가는길(오답).cpp = stl\연구활동가는길(오답).cpp
+		stl\연구활동가는길(정답_인접행렬).cpp = stl\연구활동가는길(정답_인접행렬).cpp
 	EndProjectSection
 EndProject
 Global
