@@ -21,9 +21,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "입출력문제", "입출�
 		stl\test.cpp = stl\test.cpp
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stl정리", "stl정리", "{3C119D6F-A5D3-43C6-BFFB-DFBCECCAD8AA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "연습장", "연습장", "{3C119D6F-A5D3-43C6-BFFB-DFBCECCAD8AA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stl", "stl\stl.vcxproj", "{F229AA4B-CCE2-4EC4-BBF2-227978DABCA4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "practice", "stl\stl.vcxproj", "{F229AA4B-CCE2-4EC4-BBF2-227978DABCA4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "기초알고리즘", "기초알고리즘", "{1152509E-DF1A-4450-9ED9-6C7EF4DC78D0}"
 	ProjectSection(SolutionItems) = preProject
@@ -45,6 +45,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "창의적알고리즘(중�
 		stl\연구활동가는길(오답).cpp = stl\연구활동가는길(오답).cpp
 		stl\연구활동가는길(정답_인접행렬).cpp = stl\연구활동가는길(정답_인접행렬).cpp
 		stl\오른편절편소수(다시해볼것).cpp = stl\오른편절편소수(다시해볼것).cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stl모음", "stl모음", "{4C8352CB-4F78-4750-8B14-215D5214F118}"
+	ProjectSection(SolutionItems) = preProject
+		stl\STL_count.cpp = stl\STL_count.cpp
+		STL_fill.cpp = STL_fill.cpp
+		STL_find.cpp = STL_find.cpp
+		STL_rotate_reverse.cpp = STL_rotate_reverse.cpp
 	EndProjectSection
 EndProject
 Global
@@ -69,6 +77,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F229AA4B-CCE2-4EC4-BBF2-227978DABCA4} = {3C119D6F-A5D3-43C6-BFFB-DFBCECCAD8AA}
+		{F33FDE44-74B7-4C46-BB58-1E54B8E5D3EC} = {AA68CC31-A38C-4016-871C-0DD79D58A35B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6685842-45B1-4525-A0DD-DEE9215EF7D8}
