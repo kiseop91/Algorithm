@@ -37,7 +37,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "창의적알고리즘(중�
 		입출력문제\2558_boj.cpp = 입출력문제\2558_boj.cpp
 		stl\2566_boj.cpp = stl\2566_boj.cpp
 		stl\2615_boj.cpp = stl\2615_boj.cpp
+		stl\2636_boj(치즈_푸는중).cpp = stl\2636_boj(치즈_푸는중).cpp
 		2667_boj.cpp = 2667_boj.cpp
+		stl\cheeze_solution.cpp = stl\cheeze_solution.cpp
 		stl\MinimunSum.cpp = stl\MinimunSum.cpp
 		stl\고기잡이L.cpp = stl\고기잡이L.cpp
 		stl\고기잡이s.cpp = stl\고기잡이s.cpp
@@ -45,6 +47,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "창의적알고리즘(중�
 		stl\연구활동가는길(오답).cpp = stl\연구활동가는길(오답).cpp
 		stl\연구활동가는길(정답_인접행렬).cpp = stl\연구활동가는길(정답_인접행렬).cpp
 		stl\오른편절편소수(다시해볼것).cpp = stl\오른편절편소수(다시해볼것).cpp
+		stl\토너먼트.cpp = stl\토너먼트.cpp
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stl모음", "stl모음", "{4C8352CB-4F78-4750-8B14-215D5214F118}"
@@ -77,7 +80,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F229AA4B-CCE2-4EC4-BBF2-227978DABCA4} = {3C119D6F-A5D3-43C6-BFFB-DFBCECCAD8AA}
-		{F33FDE44-74B7-4C46-BB58-1E54B8E5D3EC} = {AA68CC31-A38C-4016-871C-0DD79D58A35B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6685842-45B1-4525-A0DD-DEE9215EF7D8}
