@@ -27,7 +27,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "practice", "stl\stl.vcxproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "기초알고리즘", "기초알고리즘", "{1152509E-DF1A-4450-9ED9-6C7EF4DC78D0}"
 	ProjectSection(SolutionItems) = preProject
+		stl\11005_boj(2진수).cpp = stl\11005_boj(2진수).cpp
 		stl\1158_boj.cpp = stl\1158_boj.cpp
+		stl\9613_boj(gcd).cpp = stl\9613_boj(gcd).cpp
+		stl\encoding.cpp = stl\encoding.cpp
 		stl\stl.cpp = stl\stl.cpp
 	EndProjectSection
 EndProject

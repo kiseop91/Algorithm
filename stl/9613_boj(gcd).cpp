@@ -3,24 +3,6 @@
 #include <iostream>
 using namespace std;
 int gcd(int a, int b);
-bool check[101];
-int sum_gcd(int sum,int count,int n)
-{
-	if (count == n)
-	{
-		return sum;
-	}
-
-	for (int i = 0; i < n; i++)
-	{
-		if (!check[i])
-		{ 
-			check[i] = 1;
-			sum_gcd();
-			check[i] = 0;
-		}
-	}
-}
 int main()
 {
 	int t;
@@ -29,12 +11,20 @@ int main()
 	{
 		int n;
 		long long num[101];
+		long long sum=0;
 		cin >> n;
 		for (int i = 0; i < n; i++)
-			scanf("%lld", &num[i]);
+			scanf_s("%lld", &num[i]);
 		
+		for (int i = 0; i < n-1; i++)
+		{
+			for (int j = i+1; j < n; j++)
+			{
+				sum += gcd(num[i], num[j]);
+			}
+		}
 
-
+		cout << sum << endl;
 	}
 
 	return 0;
