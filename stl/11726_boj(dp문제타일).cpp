@@ -12,7 +12,7 @@ int solve(int n)
 		return dp[n];
 	else
 	{
-		dp[n] = solve(n - 1) + solve(n - 2);
+		dp[n] = solve(n - 1) + solve(n - 2) % 10007;
 		return dp[n];
 	}
 
@@ -23,15 +23,15 @@ int main()
 	cin >> n;
 
 	dp[1] = 1;
-	dp[2] = 2;
+	dp[2] = 3;
 
 	//bottom up
 	for (int i = 3; i <= n; i++)
-			dp[i] = dp[i - 1] + dp[i - 2];
+		dp[i] = (dp[i - 1] +  2* dp[i - 2]) % 10007;
 	cout << dp[n] << endl;
-	
+
 	//top down
-	solve(n);
-	cout << dp[n] << endl;
+	//solve(n);
+	//cout << dp[n] << endl;
 	return 0;
 }
