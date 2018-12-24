@@ -32,6 +32,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "기초알고리즘", "기�
 		stl\11726_boj(dp문제타일).cpp = stl\11726_boj(dp문제타일).cpp
 		stl\1463_boj(1로나누기).cpp = stl\1463_boj(1로나누기).cpp
 		15988_boj_123더하기.cpp = 15988_boj_123더하기.cpp
+		stl\2193_boj(이친수dp).cpp = stl\2193_boj(이친수dp).cpp
 		stl\2908_boj.cpp = stl\2908_boj.cpp
 		stl\9613_boj(gcd).cpp = stl\9613_boj(gcd).cpp
 		stl\baekman.cpp = stl\baekman.cpp
