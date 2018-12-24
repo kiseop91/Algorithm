@@ -18,7 +18,7 @@ int main()
 	{
 		for (int j = 1; j <= m - w + 1; j++)
 		{
-			tmp = 0;
+			tmp = 0;  
 			for (int k = i; k <= i + h - 1; k++)
 			{
 				for (int q = j; q <= j + w - 1; q++)
