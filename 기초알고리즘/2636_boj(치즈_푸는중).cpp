@@ -19,7 +19,7 @@ int main()
 
 void fill_to_Air(int x, int y)
 {
-	map[x][y] = 2;
+  	map[x][y] = 2;  
 	for (int i = 0; i < 4; i++)
 	{
 		int nx = x + dx[i];
