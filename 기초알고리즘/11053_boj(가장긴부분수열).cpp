@@ -23,7 +23,7 @@ int main()
 			}
 		}
 	}
-	cout << *max_element(dp,dp+n) << endl;
+	cout << *max_element(dp, dp + n) << endl;
 
 	return 0;
 }
