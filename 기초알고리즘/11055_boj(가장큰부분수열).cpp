@@ -5,6 +5,7 @@ using namespace std;
 int dp[1001];
 int s[1001];
 
+
 int main()
 {
 	int n;

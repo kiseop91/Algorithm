@@ -25,24 +25,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "연습장", "연습장", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "practice", "stl\stl.vcxproj", "{F229AA4B-CCE2-4EC4-BBF2-227978DABCA4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "기초알고리즘", "기초알고리즘", "{1152509E-DF1A-4450-9ED9-6C7EF4DC78D0}"
-	ProjectSection(SolutionItems) = preProject
-		stl\10844_boj(쉬운계단수dp).cpp = stl\10844_boj(쉬운계단수dp).cpp
-		stl\11005_boj(2진수).cpp = stl\11005_boj(2진수).cpp
-		stl\1158_boj.cpp = stl\1158_boj.cpp
-		stl\11726_boj(dp문제타일).cpp = stl\11726_boj(dp문제타일).cpp
-		stl\1463_boj(1로나누기).cpp = stl\1463_boj(1로나누기).cpp
-		15988_boj_123더하기.cpp = 15988_boj_123더하기.cpp
-		stl\2193_boj(이친수dp).cpp = stl\2193_boj(이친수dp).cpp
-		stl\2908_boj.cpp = stl\2908_boj.cpp
-		stl\9613_boj(gcd).cpp = stl\9613_boj(gcd).cpp
-		stl\baekman.cpp = stl\baekman.cpp
-		stl\bakman2.cpp = stl\bakman2.cpp
-		stl\boj_11052(카드 구매하기dp).cpp = stl\boj_11052(카드 구매하기dp).cpp
-		stl\encoding.cpp = stl\encoding.cpp
-		stl\stl.cpp = stl\stl.cpp
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "창의적알고리즘(중급)", "창의적알고리즘(중급)", "{F33FDE44-74B7-4C46-BB58-1E54B8E5D3EC}"
 	ProjectSection(SolutionItems) = preProject
 		stl\10971_boj(오답).cpp = stl\10971_boj(오답).cpp

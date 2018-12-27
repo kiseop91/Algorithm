@@ -11,9 +11,11 @@ int main()
 	for (int i = 1; i <= n; i++)
 		cin >> s[i];
 
+	
 	dp[1][1] = s[1];
 	dp[2][2] = s[1] + s[2];
 	dp[1][2] = s[2];
+	
 
 	for (int i = 3; i <= n; i++)
 	{
