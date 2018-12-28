@@ -15,7 +15,7 @@ int main()
 		cin >> s[i];
 
 	sort(s, s + n);
-	cout << s[k-1] << '\n';
+	cout << s[k - 1] << '\n';
 
 	return 0;
 }
