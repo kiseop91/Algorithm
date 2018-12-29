@@ -55,6 +55,14 @@ int main()
 		v[x].push_back(y);
 		v[y].push_back(x);
 	}
+	int cnt = 0;
+	for (int i = 1; i <= vn; i++)
+	{
+		if (check[i] == false) {
+			dfs(i);
+			cnt++;
+		}
+	}
+	cout << cnt << endl;
 	return 0;
 }
-
