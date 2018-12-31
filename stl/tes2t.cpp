@@ -1,60 +1,111 @@
 #include <iostream>
 #include <algorithm>
-#include <string>
 #include <vector>
-#include <tuple>
 #include <queue>
-#include <memory>
-#include <cstring>
-
+#include <string>
 using namespace std;
-vector<int> v[10001];
-bool check[10001];
-//vector<bool> check(1001);
 
-void dfs(int x)
+class Player
 {
-	check[x] = true;
-	for (int i = 0; i < v[x].size(); i++)
-	{
-		int y = v[x][i];
-		if (check[y] == false)
-			dfs(y);
-	}
+public:
+	Player();
+	~Player();
+	int getNumberOfCards();
+	string m_PlayerName;
+private:
+	int m_NumberOfCards;
+};
+
+Player::Player()
+{
+	m_NumberOfCards = 5;
 }
 
-void bfs(int x)
+Player::~Player()
 {
-	queue<int> q;
-	check[x] = true;
-	q.push(x);
-	while (!q.empty())
+}
+int Player::getNumberOfCards()
+{
+	return m_NumberOfCards;
+}
+class Character
+{
+public:
+	Character();
+	~Character();
+	void Waking()
 	{
-		int x = q.front();
-		q.pop();
-		cout << x << " ";
-		for (int i = 0; i < v[x].size(); i++)
-		{
-			int y = v[x][i];
-			if (check[y] == false)
-			{
-				check[y] = true;
-				q.push(y);
-			}
-		}
+		cout << "걷는다." << endl;
 	}
+	void inventory()
+	{
+		cout << "인벤토리를 연다" << endl;
+	}
+protected:
+
+private:
+
+};
+
+Character::Character()
+{
+}
+
+Character::~Character()
+{
+}
+
+class Warrior:public Character
+{
+public:
+	Warrior();
+	~Warrior();
+	void slash()
+	{
+		cout << "슬레쉬공격!!" << endl;
+	}
+private:
+
+};
+
+Warrior::Warrior()
+{
+}
+
+Warrior::~Warrior()
+{
+}
+
+class Magician:public Character
+{
+public:
+	Magician();
+	~Magician();
+	void fireball()
+	{
+		cout << "파이어볼 발사!!" << endl;
+	}
+private:
+
+};
+
+Magician::Magician()
+{
+}
+
+Magician::~Magician()
+{
 }
 int main()
 {
-	int vn, kn;
-	cin >> vn >> kn;
-	for (int i = 0; i < kn; i++)
-	{
-		int x, y;
-		cin >> x >> y;
-		v[x].push_back(y);
-		v[y].push_back(x);
-	}
+	Player kiseop;
+	Warrior w1;
+	Magician m1;
+
+	w1.inventory();
+	kiseop.m_PlayerName = "kim ki seop";
+	cout << kiseop.getNumberOfCards() << endl;
+	cout << kiseop.m_PlayerName << endl;
+
 	return 0;
 }
-
