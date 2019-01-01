@@ -39,6 +39,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "기초알고리즘", "기�
 		stl\baekman.cpp = stl\baekman.cpp
 		stl\bakman2.cpp = stl\bakman2.cpp
 		stl\boj_11052(카드 구매하기dp).cpp = stl\boj_11052(카드 구매하기dp).cpp
+		codeforce_div3_A.cpp = codeforce_div3_A.cpp
 		stl\encoding.cpp = stl\encoding.cpp
 		stl\stl.cpp = stl\stl.cpp
 	EndProjectSection
