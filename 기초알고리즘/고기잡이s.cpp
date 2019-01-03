@@ -18,7 +18,7 @@ int main()
 		for (int j = i; j <= i + k - 1; j++) // 그물의 크기 k 범위안에 잡힌 물고기의 합을구함.
 		{
 			tmp += map[j];
-		}
+		} 
 		if (tmp > res)   
 			res = tmp;
 	}
