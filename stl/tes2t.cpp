@@ -1,19 +1,29 @@
-class MedianFinder {
-	vector<double> store;
+#include <iostream>
+#include <string>
+#include <set>
+#include <vector>
+#include <list>
+#include <algorithm>
+using namespace std;
 
-public:
-	// Adds a number into the data structure.
-	void addNum(int num)
-	{
-		store.push_back(num);
+
+int main()
+{
+	string s;
+	vector<string> res;
+	cin >> s;
+	int sLength = s.length()-1;
+	res.push_back(s);
+	for (int i = 0; i < sLength; i++) {
+		reverse(s.begin(),s.end());
+		s.pop_back();
+		reverse(s.begin(), s.end());
+		res.push_back(s);
 	}
 
-	// Returns the median of current data stream
-	double findMedian()
-	{
-		sort(store.begin(), store.end());
+	sort(res.begin(), res.end());
 
-		int n = store.size();
-		return (n & 1 ? (store[n / 2 - 1] + store[n / 2]) * 0.5 : store[n / 2]);
-	}
-};
+	for (auto& x : res)
+		cout << x << endl;
+	return 0;
+}
