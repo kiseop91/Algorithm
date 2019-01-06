@@ -17,7 +17,7 @@ int main()
 		else
 			Nminus.push_back(num);
 	}
-	
+
 	sort(Nplus.begin(), Nplus.end());
 	reverse(Nplus.begin(), Nplus.end());
 	sort(Nminus.begin(), Nminus.end());
@@ -35,14 +35,14 @@ int main()
 		}
 	}
 
-	if (Nplus.size()!=0) {
+	if (Nplus.size() != 0) {
 		if (Nplus.size() % 2 != 0) {
 			ans += Nplus.back();
 			Nplus.pop_back();
 		}
 	}
 	// 6 -1 0 0 0 0 0 
-	if (Nminus.size()!=0) {
+	if (Nminus.size() != 0) {
 		if (Nminus.size() % 2 != 0) {
 			ans += Nminus.back();
 			Nminus.pop_back();
