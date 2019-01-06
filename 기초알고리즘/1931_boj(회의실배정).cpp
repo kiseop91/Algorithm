@@ -31,8 +31,8 @@ int main()
 	sort(meeting, meeting + n, cmp);
 
 	int count = 1;
-	int cur_end=meeting[0].end;
-	int cur_begin=meeting[0].begin;
+	int cur_end = meeting[0].end;
+	int cur_begin = meeting[0].begin;
 	for (int i = 1; i < n; i++)
 	{
 		if (cur_end <= meeting[i].begin)
