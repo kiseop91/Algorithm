@@ -5,7 +5,7 @@
 using namespace std;
 int w, h; //  ¡è   ¢Ö    ¡æ   ¢Ù   ¡é    ¢×    ¡ç    ¢Ø    
 int dx[] = { -1 , -1 , 0 , 1 , 1 , -1 ,  0 ,  1 };
-int dy[] = {  0 ,  1 , 1 , 1 , 0 , -1 , -1 , -1 };
+int dy[] = { 0 ,  1 , 1 , 1 , 0 , -1 , -1 , -1 };
 bool chk(int x, int y)
 {
 	return (0 <= x && x < h) && (0 <= y && y < w);
@@ -38,7 +38,7 @@ void intialize()
 	{
 		for (int j = 0; j < 51; j++)
 		{
-			map[i][j]=0;
+			map[i][j] = 0;
 		}
 	}
 }
@@ -73,7 +73,7 @@ int main()
 				}
 			}
 		}
-		if(t!=0)
+		if (t != 0)
 			cout << cnt - 2 << endl;
 	}
 	return 0;

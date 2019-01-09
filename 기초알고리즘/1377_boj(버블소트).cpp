@@ -12,7 +12,7 @@ int main()
 	vector<pair<int, int>> s(n);
 	int cnt = 0;
 	for (int i = 0; i < n; i++) {
-		cin >> s[i].first;
+		cin >> s[i].first;  
 		s[i].second = i;
 	}
 	sort(s.begin(), s.end());
