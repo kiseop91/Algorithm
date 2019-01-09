@@ -1,39 +1,31 @@
-#include <string>
-#include <vector>
 #include <iostream>
-using namespace std;
+#define mod 1000000000
 
-int solution(string arrangement) {
-	int cnt = 0;
-	int answer = 0;
-	for (int i = 0; i < arrangement.length(); i++)
+using namespace std;
+long long dp[201][201];
+
+int main() {
+
+	int N, K;
+	cin >> N >> K;
+
+	for (int i = 0; i <= N; i++) {
+		dp[1][i] = 1;
+	}
+
+	for (int i = 2; i <= K; i++)
 	{
-		if (arrangement[i] == '(')
+		for (int j = 0; j <= N; j++)
 		{
-			if (arrangement[i + 1] == ')')
+			for (int k = 0; k <= j; k++)
 			{
-				answer += cnt;
+				dp[i][j] += dp[i - 1][k];
 			}
-			else
-			{
-				cnt++;
-			}
-		}
-		else if (arrangement[i] == ')')
-		{
-			if (arrangement[i - 1] == '(')
-				continue;
-			cnt--;
-			answer += 1;
+			dp[i][j] %= mod;
 		}
 	}
-	return answer;
-}
-int main()
-{
-	string s;
-	cin >> s;
 
-	cout<<solution(s);
-	
+	cout << dp[K][N] << endl;
+
+	return 0;
 }
