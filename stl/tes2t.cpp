@@ -1,80 +1,80 @@
-//섬의 개수
 #include <iostream>
-#include <algorithm>
+#include <vector>
 #include <cstring>
 using namespace std;
-int w, h; //  ↑   ↗    →   ↘   ↓    ↙    ←    ↖    
-int dx[] = { -1 , -1 , 0 , 1 , 1 , -1 ,  0 ,  1 };
-int dy[] = {  0 ,  1 , 1 , 1 , 0 , -1 , -1 , -1 };
-bool chk(int x, int y)
+vector<int> a[100001];
+bool chk[100001];
+int cnt;
+void dfs(int v, int start)
 {
-	return (0 <= x && x < h) && (0 <= y && y < w);
-}
 
-int map[51][51];  //1 은 땅, 0은 바다.
+	chk[v] = true;
 
-void dfs(int x, int y, int cnt)
-{
-	if (map[x][y] != 1) //한번도안밟은땅이 아니라면
+	for (int i = 0; i < a[v].size(); i++)
 	{
-		return;
-	}
-	map[x][y] = cnt; //한번밟은땅이면 채크해줌.
-
-	for (int i = 0; i < 8; i++)  //이땅에서 갈수있는 8방향 검사
-	{
-		int nx = dx[i] + x;
-		int ny = dy[i] + y; //다음좌표
-		if (chk(nx, ny) && map[nx][ny] == 1) //다음좌표가 맵안이고, 한번도안간곳이면 갑시다.
+		int next = a[v][i];
+		if (chk[next] == false )
 		{
-			dfs(nx, ny, cnt);
+			dfs(next, start);
+		}
+		else if (next == start)
+		{
+			return;
+		}
+		else
+		{
+			cnt++;
+			return;
 		}
 	}
-}
 
-void intialize()
-{
-	for (int i = 0; i < 51; i++)
-	{
-		for (int j = 0; j < 51; j++)
-		{
-			map[i][j]=0;
-		}
-	}
 }
-
+int n;
 int main()
 {
-	int t = true;
-	while (t)
+	int t;
+	cin >> t;
+	while (t--)
 	{
-		intialize();
-		cin >> w >> h;
-		if (w == 0 && h == 0)
-			t = 0;
+		cin >> n;
 
-		for (int i = 0; i < h; i++)
+		for (int i = 1; i <= n; i++) {
+			int tmp;
+			cin >> tmp;
+			a[i].push_back(tmp);
+		}
+
+		for (int i = 1; i <= n; i++)
 		{
-			for (int j = 0; j < w; j++)
+			if (chk[i] == false)
 			{
-				cin >> map[i][j];
+				dfs(i, i);
 			}
 		}
-		//dfs 
-		int cnt = 2;
-		for (int i = 0; i < h; i++)
-		{
-			for (int j = 0; j < w; j++)
-			{
-				//각점마다 방문하지않은곳이면 dfs(i,j,cnt++);
-				if (map[i][j] == 1)
-				{
-					dfs(i, j, cnt++);
-				}
-			}
-		}
-		if(t!=0)
-			cout << cnt - 2 << endl;
+
+
+		cout << cnt << endl;
+
+
+		/////초기화 필수.
+		for (int i = 0; i <= n; i++)
+			a[i].clear();
+		memset(chk, 0, sizeof(chk));
+		cnt = 0;
 	}
+
 	return 0;
 }
+
+
+
+
+/* 출력용
+for (int i = 1; i <= n; i++) {
+	cout << i << " ";
+	for (int j = 0; j < a[i].size(); j++)
+		cout << a[i][j] << " ";
+
+	cout << endl;
+}*/
+
