@@ -35,7 +35,7 @@ int main()
 					cnt++;
 			}
 		}
-		if (chk == false && cnt>=2) {
+		if (chk == false && cnt >= 2) {
 			for (int i = 0; i < m; i++)
 			{
 				if (per[i] == 0)
