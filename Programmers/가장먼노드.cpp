@@ -16,7 +16,7 @@ void bfs(int node, vector<int> v[])
 	{
 		int curNode = q.front();
 		q.pop();
-	//	cout << curNode << " " << num[curNode] << endl;
+		//	cout << curNode << " " << num[curNode] << endl;
 		for (int i = 0; i < v[curNode].size(); i++)
 		{
 			int nextNode = v[curNode][i];
@@ -32,7 +32,7 @@ void bfs(int node, vector<int> v[])
 int solution(int n, vector<vector<int>> edge) {
 	int answer = 0;
 
-	vector<int> v[20];
+	vector<int> v[20001];
 	for (int i = 0; i < edge.size(); i++) {
 		v[edge[i][0]].push_back(edge[i][1]);
 		v[edge[i][1]].push_back(edge[i][0]);
