@@ -60,6 +60,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "창의적알고리즘(중�
 		stl\리모컨.cpp = stl\리모컨.cpp
 		stl\연구활동가는길(오답).cpp = stl\연구활동가는길(오답).cpp
 		stl\연구활동가는길(정답_인접행렬).cpp = stl\연구활동가는길(정답_인접행렬).cpp
+		연습.cpp = 연습.cpp
 		stl\오른편절편소수(다시해볼것).cpp = stl\오른편절편소수(다시해볼것).cpp
 		stl\크로아티아알파벳.cpp = stl\크로아티아알파벳.cpp
 		stl\토너먼트.cpp = stl\토너먼트.cpp
