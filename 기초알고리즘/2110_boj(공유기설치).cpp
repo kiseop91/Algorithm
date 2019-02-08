@@ -16,7 +16,7 @@ bool chk(const vector<int> &v, int c, int x) // 공유기 간 거리가 가장 짧은 곳을 
 		}
 	}
 
-	return cnt >= c;  
+	return cnt >= c;
 }
 
 int main()
