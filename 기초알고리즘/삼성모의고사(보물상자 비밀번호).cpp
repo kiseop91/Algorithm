@@ -34,10 +34,10 @@ int main()
 		int div = (n / 4); //잘라야하는 문자길이
 		string password;
 		cin >> password;
-		
+
 		//To DO : 원본상태에서 비밀번호구하기.
 		solve("", password, div);
-		
+
 		//돌렸을 때 비밀번호구하기.
 		for (int i = 0; i < rotate; i++)
 		{
@@ -49,9 +49,9 @@ int main()
 		}
 		int cnt = 1;
 		int lo = res.size() - k + 1;
-		for (auto it = res.begin(); it != res.end(); it++){
+		for (auto it = res.begin(); it != res.end(); it++) {
 			if (cnt == lo)
-				cout <<"#"<<t<<" "<< *it << endl;
+				cout << "#" << t << " " << *it << endl;
 			cnt++;
 		}
 		res.clear();
