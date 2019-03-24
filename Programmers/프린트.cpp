@@ -42,3 +42,22 @@ int solution(vector<int> priorities, int location) {
 
 	return answer;
 }
+
+int main()
+{
+	int n;
+	cin >> n;
+	for (int i = 0; i < n; i++)
+	{
+		vector<int> p;
+		int lo,k;
+		cin >> k >> lo;
+		for (int i = 0; i < k; i++)
+		{
+			int tmp;
+			cin >> tmp;
+			p.push_back(tmp);
+		}
+		cout << solution(p, lo) << endl;
+	}
+}
