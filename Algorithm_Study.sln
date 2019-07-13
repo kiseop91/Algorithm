@@ -28,6 +28,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "기초알고리즘", "기초알고리즘", "{1152509E-DF1A-4450-9ED9-6C7EF4DC78D0}"
 	ProjectSection(SolutionItems) = preProject
 		stl\10844_boj(쉬운계단수dp).cpp = stl\10844_boj(쉬운계단수dp).cpp
+		10942_boj(펠린드롬).cpp = 10942_boj(펠린드롬).cpp
 		stl\11005_boj(2진수).cpp = stl\11005_boj(2진수).cpp
 		stl\1158_boj.cpp = stl\1158_boj.cpp
 		stl\11726_boj(dp문제타일).cpp = stl\11726_boj(dp문제타일).cpp
@@ -36,6 +37,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "기초알고리즘", "기�
 		1890_boj(점프).cpp = 1890_boj(점프).cpp
 		stl\2193_boj(이친수dp).cpp = stl\2193_boj(이친수dp).cpp
 		stl\2908_boj.cpp = stl\2908_boj.cpp
+		3079_boj(입국심사).cpp = 3079_boj(입국심사).cpp
 		stl\9613_boj(gcd).cpp = stl\9613_boj(gcd).cpp
 		stl\baekman.cpp = stl\baekman.cpp
 		stl\bakman2.cpp = stl\bakman2.cpp
@@ -43,7 +45,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "기초알고리즘", "기�
 		codeforce_div3_A.cpp = codeforce_div3_A.cpp
 		stl\encoding.cpp = stl\encoding.cpp
 		stl\stl.cpp = stl\stl.cpp
+		unionfind.cpp = unionfind.cpp
 		물통.cpp = 물통.cpp
+		프로그래머스_비트다음으로큰수.cpp = 프로그래머스_비트다음으로큰수.cpp
+		프로그래머스_영어끝말잇기(lv2).cpp = 프로그래머스_영어끝말잇기(lv2).cpp
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "창의적알고리즘(중급)", "창의적알고리즘(중급)", "{F33FDE44-74B7-4C46-BB58-1E54B8E5D3EC}"

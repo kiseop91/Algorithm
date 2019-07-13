@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdio>
+
 using namespace std;
 long long d[1000001];
 int main() {
