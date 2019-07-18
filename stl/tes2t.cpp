@@ -5,6 +5,7 @@
 #include <queue>
 #include <algorithm>
 #include <memory.h>
+#include <bitset>
 #include <unordered_map>
 
 using namespace std;

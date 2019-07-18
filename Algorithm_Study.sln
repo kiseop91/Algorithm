@@ -79,6 +79,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stl모음", "stl모음", "{
 		STL_fill.cpp = STL_fill.cpp
 		STL_find.cpp = STL_find.cpp
 		STL_rotate_reverse.cpp = STL_rotate_reverse.cpp
+		추억(10년전C언어파일).c = 추억(10년전C언어파일).c
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "알고리즘 문제해결전략", "알고리즘 문제해결전략", "{DA9181B7-7A7F-489B-B63C-B086137CD7B3}"
@@ -90,6 +91,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "오답", "오답", "{4896B727-9AA6-43FC-AEDB-A7D07E64A3E1}"
 	ProjectSection(SolutionItems) = preProject
 		1074_boj(z 오답).cpp = 1074_boj(z 오답).cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "line", "line", "{AC79EABA-EF67-49A9-831E-D58733228E51}"
+	ProjectSection(SolutionItems) = preProject
+		1번.cpp = 1번.cpp
 	EndProjectSection
 EndProject
 Global
